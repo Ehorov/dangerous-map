@@ -1,0 +1,25 @@
+.addressSearchContainer {
+  min-width: 500px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  border: none;
+}
+
+.modeToggle {
+  background: #333333;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 90%;
+  border: none;
+  border-left: 0.5px solid rgb(43, 43, 43);
+  color: #666666;
+  font-weight: 700;
+}
+.modeToggle:hover {
+  border: 2px solid #009652;
+  color: #009652;
+}

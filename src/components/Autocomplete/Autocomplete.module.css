@@ -1,0 +1,53 @@
+.root {
+  position: relative;
+  width: 100%;
+  background-color: #333333;
+  opacity: 90%;
+}
+.root * {
+  box-sizing: border-box;
+  background-color: #333333;
+  opacity: 90%;
+}
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #333333;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #666666;
+}
+.input:focus {
+  border-color: #009652;
+  outline: none;
+}
+
+.input:hover {
+  border-color: #009652;
+  color: #009652;
+}
+
+.suggestion {
+  position: absolute;
+  top: 0;
+  transform: translateY(39px);
+  background: #333333;
+  border: 2px solid rgb(51, 51, 51);
+  width: 100%;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  color: #666666;
+}
+
+.listItem {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  /* background: #efefef; */
+  color: #009652;
+}
