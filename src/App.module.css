@@ -7,7 +7,6 @@
   z-index: 10;
   display: flex;
   border: none;
-  border-radius: 50px;
 }
 
 @media all and (max-width: 480px) {
@@ -27,6 +26,6 @@
   font-weight: 700;
 }
 .modeToggle:hover {
-  border: 2px solid #009652;
-  color: #009652;
+  border: 2px solid #33cc99;
+  color: #33cc99;
 }

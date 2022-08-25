@@ -1,5 +1,6 @@
 import React from 'react';
-import { GoogleMap } from '@react-google-maps/api';
+import { GoogleMap, MarkerClusterer } from '@react-google-maps/api';
+
 import s from './Map.module.css';
 import { defaultTheme } from './Theme';
 import { CurrentLocationMarker } from '../CurrentLocationMarker';
@@ -54,22 +55,38 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
     },
     [mode, onMarkerAdd],
   );
+  const options = {
+    radius: 25,
+    zoom: 10,
+  };
+  function createKey(marker) {
+    return marker.lat + marker.lng;
+  }
 
   return (
     <div className={s.container}>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={10}
+        zoom={11}
         onLoad={onLoad}
         onUnmount={onUnmount}
         onClick={onClick}
         options={defaultOptions}
       >
         <CurrentLocationMarker position={center} />
-        {markers.map(pos => {
-          return <Marker position={pos} />;
-        })}
+
+        <MarkerClusterer options={options}>
+          {clusterer =>
+            markers.map(marker => (
+              <Marker
+                key={createKey(marker)}
+                position={marker}
+                clusterer={clusterer}
+              />
+            ))
+          }
+        </MarkerClusterer>
       </GoogleMap>
     </div>
   );

@@ -133,7 +133,7 @@ export const defaultTheme = [
     elementType: 'geometry.fill',
     stylers: [
       {
-        color: '#009652',
+        color: '#33cc99',
       },
       {
         lightness: '0',

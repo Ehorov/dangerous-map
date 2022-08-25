@@ -15,16 +15,16 @@
   border: 2px solid #333333;
   font-size: 1rem;
   font-weight: 700;
-  color: #666666;
+  color: #33cc99;
 }
 .input:focus {
-  border-color: #009652;
+  border-color: #33cc99;
   outline: none;
 }
 
 .input:hover {
-  border-color: #009652;
-  color: #009652;
+  border-color: #33cc99;
+  color: #33cc99;
 }
 
 .suggestion {
@@ -48,8 +48,10 @@
 }
 
 .listItem:hover {
-  color: #009652;
+  color: #33cc99;
+  opacity: 100%;
 }
 .listItem:focus {
-  color: #009652;
+  color: #33cc99;
+  opacity: 100%;
 }
