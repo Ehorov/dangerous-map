@@ -1,33 +1,33 @@
-import React from "react";
-import { useJsApiLoader } from "@react-google-maps/api";
+import React from 'react';
+import { useJsApiLoader } from '@react-google-maps/api';
 
-import { Map, MODES } from "./components/Map";
-import { Autocomplete } from "./components/Autocomplete";
-import { getBrowserLocation } from "./utils/geo";
-import s from "./App.module.css";
+import { Map, MODES } from './components/Map';
+import { Autocomplete } from './components/Autocomplete';
+import { getBrowserLocation } from './utils/geo';
+import s from './App.module.css';
 
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const defaultCenter = {
-  lat: -3.745,
-  lng: -38.523,
+  lat: 50.450001,
+  lng: 30.523333,
 };
 
-const libraries = ["places"];
+const libraries = ['places'];
 
 const App = () => {
   const [center, setCenter] = React.useState(defaultCenter);
   const [mode, setMode] = React.useState(MODES.MOVE);
   const [markers, setMarkers] = React.useState([]);
   const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
+    id: 'google-map-script',
     googleMapsApiKey: API_KEY,
     libraries,
   });
 
-  const onPlaceSelect = React.useCallback((coordinates) => {
+  const onPlaceSelect = React.useCallback(coordinates => {
     setCenter(coordinates);
   }, []);
 
@@ -46,10 +46,10 @@ const App = () => {
   }, [mode]);
 
   const onMarkerAdd = React.useCallback(
-    (coordinates) => {
+    coordinates => {
       setMarkers([...markers, coordinates]);
     },
-    [markers]
+    [markers],
   );
 
   const clear = React.useCallback(() => {
@@ -58,10 +58,10 @@ const App = () => {
 
   React.useEffect(() => {
     getBrowserLocation()
-      .then((curLoc) => {
+      .then(curLoc => {
         setCenter(curLoc);
       })
-      .catch((defaultLocation) => {
+      .catch(defaultLocation => {
         setCenter(defaultLocation);
       });
   }, []);
