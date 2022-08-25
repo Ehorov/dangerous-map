@@ -48,6 +48,8 @@
 }
 
 .listItem:hover {
-  /* background: #efefef; */
+  color: #009652;
+}
+.listItem:focus {
   color: #009652;
 }

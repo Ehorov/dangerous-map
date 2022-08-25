@@ -12,7 +12,7 @@ const containerStyle = {
 
 const defaultOptions = {
   panControl: true,
-  zoomControl: true,
+  zoomControl: false,
   mapTypeControl: false,
   scaleControl: false,
   streetViewControl: false,
@@ -21,7 +21,7 @@ const defaultOptions = {
   keyboardShortcuts: false,
   scrollwheel: true,
   disableDoubleClickZoom: false,
-  fullScreenControl: false,
+  fullscreenControl: false,
   styles: defaultTheme,
   minZoom: 3,
   maxZoom: 20,
@@ -60,15 +60,15 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={10}
+        zoom={11}
         onLoad={onLoad}
         onUnmount={onUnmount}
         onClick={onClick}
         options={defaultOptions}
       >
         <CurrentLocationMarker position={center} />
-        {markers.map((pos) => {
-          return <Marker position={pos} />;
+        {markers.map((marker) => {
+          return <Marker position={marker} />;
         })}
       </GoogleMap>
     </div>

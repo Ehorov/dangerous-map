@@ -66,6 +66,7 @@ const App = () => {
       });
   }, []);
   console.log(markers);
+
   return (
     <div>
       <div className={s.addressSearchContainer}>
@@ -77,6 +78,7 @@ const App = () => {
           Clear markers
         </button>
       </div>
+
       <Helmet>
         <meta charSet="utf-8" />
         <title>World Dangerous Map</title>
@@ -91,7 +93,7 @@ const App = () => {
           onMarkerAdd={onMarkerAdd}
         />
       ) : (
-        <h2>ti ne pracyuesh i vono tej</h2>
+        <h2>Loading...</h2>
       )}
     </div>
   );
