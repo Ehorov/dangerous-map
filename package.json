@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "env-cmd": "^10.1.0",
+    "gpxparser": "^3.0.8",
     "helmet": "^5.1.1",
     "react": "^18.2.0",
     "react-cool-onclickoutside": "^1.7.0",
@@ -15,6 +16,7 @@
     "react-helmet": "^6.1.0",
     "react-scripts": "5.0.1",
     "react-use-effect": "^0.0.1",
+    "supercluster": "^7.1.5",
     "use-places-autocomplete": "^4.0.0",
     "web-vitals": "^2.1.4"
   },

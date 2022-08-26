@@ -1,10 +1,11 @@
-import React from 'react';
-import { GoogleMap, MarkerClusterer } from '@react-google-maps/api';
+import React, { useState } from 'react';
+import { GoogleMap, InfoWindow } from '@react-google-maps/api';
 
 import s from './Map.module.css';
 import { defaultTheme } from './Theme';
 import { CurrentLocationMarker } from '../CurrentLocationMarker';
 import { Marker } from '../Marker';
+import places from '../data/country.json';
 
 const containerStyle = {
   width: '100%',
@@ -49,19 +50,16 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
       if (mode === MODES.SET_MARKER) {
         const lat = loc.latLng.lat();
         const lng = loc.latLng.lng();
-        console.log({ lat, lng });
+
         onMarkerAdd({ lat, lng });
       }
     },
     [mode, onMarkerAdd],
   );
-  const options = {
-    radius: 25,
-    zoom: 10,
-  };
-  function createKey(marker) {
-    return marker.lat + marker.lng;
-  }
+
+  console.log(places);
+
+  const [selectedPlaces, setSelectedPlaces] = useState(null);
 
   return (
     <div className={s.container}>
@@ -74,19 +72,40 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
         onClick={onClick}
         options={defaultOptions}
       >
+        {markers.map(marker => (
+          <Marker position={marker} />
+        ))}
+
         <CurrentLocationMarker position={center} />
 
-        <MarkerClusterer options={options}>
-          {clusterer =>
-            markers.map(marker => (
-              <Marker
-                key={createKey(marker)}
-                position={marker}
-                clusterer={clusterer}
-              />
-            ))
-          }
-        </MarkerClusterer>
+        {places.slice(0, 10).map(places => (
+          <Marker
+            key={places.id}
+            position={{
+              lat: places.location.latitude,
+              lng: places.location.longitude,
+            }}
+            onClick={() => {
+              setSelectedPlaces(places);
+            }}
+            icon={{
+              url: `/public/m1.png`,
+            }}
+          />
+        ))}
+        {selectedPlaces && (
+          <InfoWindow
+            position={{
+              lat: selectedPlaces.location.latitude,
+              lng: selectedPlaces.location.longitude,
+            }}
+          >
+            <div>
+              <h2>{selectedPlaces.name}</h2>
+              <p>{selectedPlaces.description}</p>
+            </div>
+          </InfoWindow>
+        )}
       </GoogleMap>
     </div>
   );

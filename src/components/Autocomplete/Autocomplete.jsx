@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import usePlacesAutocomplete, {
   getGeocode,
   getLatLng,
-} from "use-places-autocomplete";
-import useOnclickOutside from "react-cool-onclickoutside";
-import s from "./Autocomplete.module.css";
+} from 'use-places-autocomplete';
+import useOnclickOutside from 'react-cool-onclickoutside';
+import s from './Autocomplete.module.css';
 
 export const Autocomplete = ({ isLoaded, onSelect }) => {
   const {
@@ -22,7 +22,7 @@ export const Autocomplete = ({ isLoaded, onSelect }) => {
     clearSuggestions();
   });
 
-  const handleInput = (e) => {
+  const handleInput = e => {
     setValue(e.target.value);
   };
 
@@ -33,19 +33,19 @@ export const Autocomplete = ({ isLoaded, onSelect }) => {
       clearSuggestions();
 
       getGeocode({ address: description })
-        .then((results) => getLatLng(results[0]))
+        .then(results => getLatLng(results[0]))
 
         .then(({ lat, lng }) => {
-          console.log("📍 Coordinates: ", { lat, lng });
+          console.log('📍 Coordinates: ', { lat, lng });
           onSelect({ lat, lng });
         })
-        .catch((error) => {
-          console.log("🙀Error: ", error);
+        .catch(error => {
+          console.log('🙀Error: ', error);
         });
     };
 
   const renderSuggestions = () =>
-    data.map((suggestion) => {
+    data.map(suggestion => {
       const {
         place_id,
         structured_formatting: { main_text, secondary_text },
@@ -78,7 +78,7 @@ export const Autocomplete = ({ isLoaded, onSelect }) => {
         disabled={!ready}
         placeholder="Where are you going?"
       />
-      {status === "OK" && (
+      {status === 'OK' && (
         <ul className={s.suggestion}>{renderSuggestions()}</ul>
       )}
     </div>
