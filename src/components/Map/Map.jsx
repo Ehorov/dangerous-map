@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GoogleMap, InfoWindow } from '@react-google-maps/api';
 
 import s from './Map.module.css';
 import { defaultTheme } from './Theme';
 import { CurrentLocationMarker } from '../CurrentLocationMarker';
 import { Marker } from '../Marker';
-import places from '../data/country.json';
 
+import camps from '../data/country.json';
 const containerStyle = {
   width: '100%',
   height: '100%',
@@ -57,52 +57,70 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
     [mode, onMarkerAdd],
   );
 
-  console.log(places);
+  const [selectedCamps, setSelectedCamps] = useState(null);
 
-  const [selectedPlaces, setSelectedPlaces] = useState(null);
+  useEffect(() => {
+    const listener = e => {
+      if (e.key === 'Escape') {
+        setSelectedCamps(null);
+      }
+    };
+    window.addEventListener('keydown', listener);
+
+    return () => {
+      window.removeEventListener('keydown', listener);
+    };
+  }, []);
 
   return (
     <div className={s.container}>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={11}
+        zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
         onClick={onClick}
         options={defaultOptions}
       >
         {markers.map(marker => (
-          <Marker position={marker} />
+          <Marker position={marker} icon={'/location.svg'} />
         ))}
 
         <CurrentLocationMarker position={center} />
 
-        {places.slice(0, 10).map(places => (
+        {camps.slice(0, 50).map(camps => (
           <Marker
-            key={places.id}
+            key={camps.id}
             position={{
-              lat: places.location.latitude,
-              lng: places.location.longitude,
+              lat: camps.location.latitude,
+              lng: camps.location.longitude,
             }}
+            icon={'/places.svg'}
             onClick={() => {
-              setSelectedPlaces(places);
-            }}
-            icon={{
-              url: `/public/m1.png`,
+              setSelectedCamps(camps);
             }}
           />
         ))}
-        {selectedPlaces && (
+        {selectedCamps && (
           <InfoWindow
             position={{
-              lat: selectedPlaces.location.latitude,
-              lng: selectedPlaces.location.longitude,
+              lat: selectedCamps.location.latitude,
+              lng: selectedCamps.location.longitude,
+            }}
+            onCloseClick={() => {
+              setSelectedCamps(null);
             }}
           >
             <div>
-              <h2>{selectedPlaces.name}</h2>
-              <p>{selectedPlaces.description}</p>
+              <h2>{selectedCamps.name}</h2>
+              <p>{selectedCamps.description}</p>
+              <div className={s.copy}>
+                <p>{`${selectedCamps.location.latitude}, ${selectedCamps.location.longitude}`}</p>
+                <button type={'button'} className={s.btn}>
+                  <input type={'image'} alt={'Copy'} src={'/copy.svg'} />
+                </button>
+              </div>
             </div>
           </InfoWindow>
         )}

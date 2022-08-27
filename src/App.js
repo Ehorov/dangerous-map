@@ -65,7 +65,6 @@ const App = () => {
         setCenter(defaultLocation);
       });
   }, []);
-  console.log(markers);
 
   return (
     <div>

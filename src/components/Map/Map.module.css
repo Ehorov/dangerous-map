@@ -2,3 +2,14 @@
   width: 100vw;
   height: 100vh;
 }
+.copy {
+  display: flex;
+  align-items: center;
+  flex-basis: auto;
+}
+.btn {
+  margin: 0;
+  border: none;
+  background: #fff;
+  height: 17px;
+}
