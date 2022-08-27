@@ -89,7 +89,7 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
 
         <CurrentLocationMarker position={center} />
 
-        {camps.slice(0, 50).map(camps => (
+        {camps.map(camps => (
           <Marker
             key={camps.id}
             position={{
