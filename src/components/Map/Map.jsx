@@ -6,7 +6,17 @@ import { defaultTheme } from './Theme';
 import { CurrentLocationMarker } from '../CurrentLocationMarker';
 import { Marker } from '../Marker';
 
-import camps from '../data/country.json';
+import africa1 from '../data/Africa-part1.json';
+import africa2 from '../data/Africa-part2.json';
+import antarctica from '../data/Antarctica.json';
+import asia from '../data/Asia.json';
+import centralAmerica from '../data/Central-America.json';
+import europe from '../data/Europe.json';
+import middleEast from '../data/Middle-East.json';
+import northAmerica from '../data/North-America.json';
+import oceania from '../data/Oceania.json';
+import southAmerica from '../data/South-America.json';
+
 const containerStyle = {
   width: '100%',
   height: '100%',
@@ -57,6 +67,18 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
     [mode, onMarkerAdd],
   );
 
+  const camps = africa1.concat(
+    africa2,
+    antarctica,
+    asia,
+    centralAmerica,
+    europe,
+    middleEast,
+    northAmerica,
+    oceania,
+    southAmerica,
+  );
+
   const [selectedCamps, setSelectedCamps] = useState(null);
 
   useEffect(() => {
@@ -71,6 +93,8 @@ const Map = ({ center, mode, markers, onMarkerAdd }) => {
       window.removeEventListener('keydown', listener);
     };
   }, []);
+
+  console.log(camps);
 
   return (
     <div className={s.container}>
