@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": 31285,
+    "name": "South Shetland Islands",
+    "date_verified": "2017-03-16T14:05:16.481Z",
+    "description": "Mikkelsen Island with Gentu penguins, Fur \u0026 Weddell seals.",
+    "location": { "latitude": -63.9258937, "longitude": -60.78798029 },
+    "category": { "name": "Tourist Attraction" }
+  },
+  {
+    "id": 31286,
+    "name": "Neko Harbour",
+    "date_verified": "2017-03-16T14:05:16.662Z",
+    "description": "on the mainland of Antarctica! Gentu penguin rookery.",
+    "location": { "latitude": -64.8436135, "longitude": -62.52985111 },
+    "category": { "name": "Tourist Attraction" }
+  },
+  {
+    "id": 31287,
+    "name": "Base Camara Armada Argentina",
+    "date_verified": "2017-03-02T00:00:00.000Z",
+    "description": "Tee shirt shop.",
+    "location": { "latitude": -62.59476062, "longitude": -59.91825121 },
+    "category": { "name": "Tourist Attraction" }
+  },
+  {
+    "id": 31288,
+    "name": "Gold Bay",
+    "date_verified": "2017-03-06T00:00:00.000Z",
+    "description": " King penguins \u0026 Elephant seals, \u0026 more!",
+    "location": { "latitude": -54.61779781, "longitude": -35.94224515 },
+    "category": { "name": "Tourist Attraction" }
+  },
+  {
+    "id": 31289,
+    "name": "St. Andrews Bay",
+    "date_verified": "2017-03-07T00:00:00.000Z",
+    "description": " Largest King penguin colony on South Georgia Island.  Over 100,000! ",
+    "location": { "latitude": -54.44249458, "longitude": -36.19158648 },
+    "category": { "name": "Tourist Attraction" }
+  },
+  {
+    "id": 31290,
+    "name": "Grytviken Museum and Post Office",
+    "date_verified": "2017-03-07T00:00:00.000Z",
+    "description": "Small museum no entry fee. Gift shop with locally made goods. Post Office sells cards \u0026 stamps. Mail sent from here goes to the Falklands then to London before being sent on.",
+    "location": { "latitude": -54.28010952, "longitude": -36.50748179 },
+    "category": { "name": "Tourist Attraction" }
+  },
+  {
+    "id": 31291,
+    "name": "Shackleton Memorial",
+    "date_verified": "2017-03-16T14:05:17.532Z",
+    "description": "A memorial for Shakleton in amongst the baby fur seals.",
+    "location": { "latitude": -54.28351561, "longitude": -36.48800341 },
+    "category": { "name": "Tourist Attraction" }
+  }
+]

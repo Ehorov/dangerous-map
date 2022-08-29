@@ -1,0 +1,250 @@
+// export { afghanistan } from 'https://www.gov.uk/api/content/foreign-travel-advice/afghanistan';
+// export { albania } from 'https://www.gov.uk/api/content/foreign-travel-advice/albania';
+// export { algeria } from 'https://www.gov.uk/api/content/foreign-travel-advice/algeria';
+// export { andorra } from 'https://www.gov.uk/api/content/foreign-travel-advice/andorra';
+// export { angola } from 'https://www.gov.uk/api/content/foreign-travel-advice/angola';
+// export { anguilla } from 'https://www.gov.uk/api/content/foreign-travel-advice/anguilla';
+// export { abat } from 'https://www.gov.uk/api/content/foreign-travel-advice/antarctica-british-antarctic-territory';
+// export { aab } from 'https://www.gov.uk/api/content/foreign-travel-advice/antigua-and-barbuda';
+// export { argentina } from 'https://www.gov.uk/api/content/foreign-travel-advice/argentina';
+// export { armenia } from 'https://www.gov.uk/api/content/foreign-travel-advice/armenia';
+// export { aruba } from 'https://www.gov.uk/api/content/foreign-travel-advice/aruba';
+// export { australia } from 'https://www.gov.uk/api/content/foreign-travel-advice/australia';
+// export { austria } from 'https://www.gov.uk/api/content/foreign-travel-advice/austria';
+// export { azerbaijan } from 'https://www.gov.uk/api/content/foreign-travel-advice/azerbaijan';
+
+// export { bahamas } from 'https://www.gov.uk/api/content/foreign-travel-advice/bahamas';
+// export { bahrain } from 'https://www.gov.uk/api/content/foreign-travel-advice/bahrain';
+// export { bangladesh } from 'https://www.gov.uk/api/content/foreign-travel-advice/bangladesh';
+// export { barbados } from 'https://www.gov.uk/api/content/foreign-travel-advice/barbados';
+// export { belarus } from 'https://www.gov.uk/api/content/foreign-travel-advice/belarus';
+// export { belgium } from 'https://www.gov.uk/api/content/foreign-travel-advice/belgium';
+// export { belize } from 'https://www.gov.uk/api/content/foreign-travel-advice/belize';
+// export { benin } from 'https://www.gov.uk/api/content/foreign-travel-advice/benin';
+// export { bermuda } from 'https://www.gov.uk/api/content/foreign-travel-advice/bermuda';
+// export { bhutan } from 'https://www.gov.uk/api/content/foreign-travel-advice/bhutan';
+// export { bolivia } from 'https://www.gov.uk/api/content/foreign-travel-advice/bolivia';
+// export { bses } from 'https://www.gov.uk/api/content/foreign-travel-advice/bonaire-st-eustatius-saba';
+// export { bah } from 'https://www.gov.uk/api/content/foreign-travel-advice/bosnia-and-herzegovina';
+// export { botswana } from 'https://www.gov.uk/api/content/foreign-travel-advice/botswana';
+// export { brazil } from 'https://www.gov.uk/api/content/foreign-travel-advice/brazil';
+// export { biot } from 'https://www.gov.uk/api/content/foreign-travel-advice/british-indian-ocean-territory';
+// export { bvi } from 'https://www.gov.uk/api/content/foreign-travel-advice/british-virgin-islands';
+// export { brunei } from 'https://www.gov.uk/api/content/foreign-travel-advice/brunei';
+// export { bulgaria } from 'https://www.gov.uk/api/content/foreign-travel-advice/bulgaria';
+// export { bf } from 'https://www.gov.uk/api/content/foreign-travel-advice/burkina-faso';
+// export { burundi } from 'https://www.gov.uk/api/content/foreign-travel-advice/burundi';
+
+// export { cambodia } from 'https://www.gov.uk/api/content/foreign-travel-advice/cambodia';
+// export { cameroon } from 'https://www.gov.uk/api/content/foreign-travel-advice/cameroon';
+// export { canada } from 'https://www.gov.uk/api/content/foreign-travel-advice/canada';
+// export { cv } from 'https://www.gov.uk/api/content/foreign-travel-advice/cape-verde';
+// export { ci } from 'https://www.gov.uk/api/content/foreign-travel-advice/cayman-islands';
+// export { caf } from 'https://www.gov.uk/api/content/foreign-travel-advice/central-african-republic';
+// export { chad } from 'https://www.gov.uk/api/content/foreign-travel-advice/chad';
+// export { chile } from 'https://www.gov.uk/api/content/foreign-travel-advice/chile';
+// export { china } from 'https://www.gov.uk/api/content/foreign-travel-advice/china';
+// export { colombia } from 'https://www.gov.uk/api/content/foreign-travel-advice/colombia';
+// export { comoros } from 'https://www.gov.uk/api/content/foreign-travel-advice/comoros';
+// export { congo } from 'https://www.gov.uk/api/content/foreign-travel-advice/congo';
+// export { citan } from 'https://www.gov.uk/api/content/foreign-travel-advice/cook-islands-tokelau-and-niue';
+// export { cr } from 'https://www.gov.uk/api/content/foreign-travel-advice/costa-rica';
+// export { cdi } from 'https://www.gov.uk/api/content/foreign-travel-advice/cote-d-ivoire';
+// export { croatia } from 'https://www.gov.uk/api/content/foreign-travel-advice/croatia';
+// export { cuba } from 'https://www.gov.uk/api/content/foreign-travel-advice/cuba';
+// export { curacao } from 'https://www.gov.uk/api/content/foreign-travel-advice/curacao';
+// export { cyprus } from 'https://www.gov.uk/api/content/foreign-travel-advice/cyprus';
+// export { czech } from 'https://www.gov.uk/api/content/foreign-travel-advice/czech-republic';
+
+// export { drotc } from 'https://www.gov.uk/api/content/foreign-travel-advice/democratic-republic-of-the-congo';
+// export { denmark } from 'https://www.gov.uk/api/content/foreign-travel-advice/denmark';
+// export { djibouti } from 'https://www.gov.uk/api/content/foreign-travel-advice/djibouti';
+// export { dominica } from 'https://www.gov.uk/api/content/foreign-travel-advice/dominica';
+// export { dr } from 'https://www.gov.uk/api/content/foreign-travel-advice/dominican-republic';
+
+// export { ecuador } from 'https://www.gov.uk/api/content/foreign-travel-advice/ecuador';
+// export { egypt } from 'https://www.gov.uk/api/content/foreign-travel-advice/egypt';
+// export { es } from 'https://www.gov.uk/api/content/foreign-travel-advice/el-salvador';
+// export { eg } from 'https://www.gov.uk/api/content/foreign-travel-advice/equatorial-guinea';
+// export { eritrea } from 'https://www.gov.uk/api/content/foreign-travel-advice/eritrea';
+// export { estonia } from 'https://www.gov.uk/api/content/foreign-travel-advice/estonia';
+// export { eswatini } from 'https://www.gov.uk/api/content/foreign-travel-advice/eswatini';
+// export { ethiopia } from 'https://www.gov.uk/api/content/foreign-travel-advice/ethiopia';
+
+// export { fi } from 'https://www.gov.uk/api/content/foreign-travel-advice/falkland-islands';
+// export { fiji } from 'https://www.gov.uk/api/content/foreign-travel-advice/fiji';
+// export { finland } from 'https://www.gov.uk/api/content/foreign-travel-advice/finland';
+// export { france } from 'https://www.gov.uk/api/content/foreign-travel-advice/france';
+// export { fg } from 'https://www.gov.uk/api/content/foreign-travel-advice/french-guiana';
+// export { fp } from 'https://www.gov.uk/api/content/foreign-travel-advice/french-polynesia';
+
+// export { gabon } from 'https://www.gov.uk/api/content/foreign-travel-advice/gabon';
+// export { tg } from 'https://www.gov.uk/api/content/foreign-travel-advice/the-gambia';
+// export { georgia } from 'https://www.gov.uk/api/content/foreign-travel-advice/georgia';
+// export { germany } from 'https://www.gov.uk/api/content/foreign-travel-advice/germany';
+// export { ghana } from 'https://www.gov.uk/api/content/foreign-travel-advice/ghana';
+// export { gibraltar } from 'https://www.gov.uk/api/content/foreign-travel-advice/gibraltar';
+// export { greece } from 'https://www.gov.uk/api/content/foreign-travel-advice/greece';
+// export { grenada } from 'https://www.gov.uk/api/content/foreign-travel-advice/grenada';
+// export { guadeloupe } from 'https://www.gov.uk/api/content/foreign-travel-advice/guadeloupe';
+// export { guatemala } from 'https://www.gov.uk/api/content/foreign-travel-advice/guatemala';
+// export { guinea } from 'https://www.gov.uk/api/content/foreign-travel-advice/guinea';
+// export { gb } from 'https://www.gov.uk/api/content/foreign-travel-advice/guinea-bissau';
+// export { guyana } from 'https://www.gov.uk/api/content/foreign-travel-advice/guyana';
+
+// export { haiti } from 'https://www.gov.uk/api/content/foreign-travel-advice/haiti';
+// export { honduras } from 'https://www.gov.uk/api/content/foreign-travel-advice/honduras';
+// export { hk } from 'https://www.gov.uk/api/content/foreign-travel-advice/hong-kong';
+// export { hungary } from 'https://www.gov.uk/api/content/foreign-travel-advice/hungary';
+
+// export { iceland } from 'https://www.gov.uk/api/content/foreign-travel-advice/iceland';
+// export { india } from 'https://www.gov.uk/api/content/foreign-travel-advice/india';
+// export { indonesia } from 'https://www.gov.uk/api/content/foreign-travel-advice/indonesia';
+// export { iran } from 'https://www.gov.uk/api/content/foreign-travel-advice/iran';
+// export { iraq } from 'https://www.gov.uk/api/content/foreign-travel-advice/iraq';
+// export { ireland } from 'https://www.gov.uk/api/content/foreign-travel-advice/ireland';
+// export { israel } from 'https://www.gov.uk/api/content/foreign-travel-advice/israel';
+// export { italy } from 'https://www.gov.uk/api/content/foreign-travel-advice/italy';
+
+// export { jamaica } from 'https://www.gov.uk/api/content/foreign-travel-advice/jamaica';
+// export { japan } from 'https://www.gov.uk/api/content/foreign-travel-advice/japan';
+// export { jordan } from 'https://www.gov.uk/api/content/foreign-travel-advice/jordan';
+
+// export { kazakhstan } from 'https://www.gov.uk/api/content/foreign-travel-advice/kazakhstan';
+// export { kenya } from 'https://www.gov.uk/api/content/foreign-travel-advice/kenya';
+// export { kiribati } from 'https://www.gov.uk/api/content/foreign-travel-advice/kiribati';
+// export { kosovo } from 'https://www.gov.uk/api/content/foreign-travel-advice/kosovo';
+// export { kuwait } from 'https://www.gov.uk/api/content/foreign-travel-advice/kuwait';
+// export { kyrgyzstan } from 'https://www.gov.uk/api/content/foreign-travel-advice/kyrgyzstan';
+
+// export { laos } from 'https://www.gov.uk/api/content/foreign-travel-advice/laos';
+// export { latvia } from 'https://www.gov.uk/api/content/foreign-travel-advice/latvia';
+// export { lebanon } from 'https://www.gov.uk/api/content/foreign-travel-advice/lebanon';
+// export { lesotho } from 'https://www.gov.uk/api/content/foreign-travel-advice/lesotho';
+// export { liberia } from 'https://www.gov.uk/api/content/foreign-travel-advice/liberia';
+// export { libya } from 'https://www.gov.uk/api/content/foreign-travel-advice/libya';
+// export { liechtenstein } from 'https://www.gov.uk/api/content/foreign-travel-advice/liechtenstein';
+// export { lithuania } from 'https://www.gov.uk/api/content/foreign-travel-advice/lithuania';
+// export { luxembourg } from 'https://www.gov.uk/api/content/foreign-travel-advice/luxembourg';
+
+// export { macao } from 'https://www.gov.uk/api/content/foreign-travel-advice/macao';
+// export { madagascar } from 'https://www.gov.uk/api/content/foreign-travel-advice/madagascar';
+// export { malawi } from 'https://www.gov.uk/api/content/foreign-travel-advice/malawi';
+// export { malaysia } from 'https://www.gov.uk/api/content/foreign-travel-advice/malaysia';
+// export { maldives } from 'https://www.gov.uk/api/content/foreign-travel-advice/maldives';
+// export { mali } from 'https://www.gov.uk/api/content/foreign-travel-advice/mali';
+// export { malta } from 'https://www.gov.uk/api/content/foreign-travel-advice/malta';
+// export { mi } from 'https://www.gov.uk/api/content/foreign-travel-advice/marshall-islands';
+// export { martinique } from 'https://www.gov.uk/api/content/foreign-travel-advice/martinique';
+// export { mauritania } from 'https://www.gov.uk/api/content/foreign-travel-advice/mauritania';
+// export { mauritius } from 'https://www.gov.uk/api/content/foreign-travel-advice/mauritius';
+// export { mayotte } from 'https://www.gov.uk/api/content/foreign-travel-advice/mayotte';
+// export { mexico } from 'https://www.gov.uk/api/content/foreign-travel-advice/mexico';
+// export { micronesia } from 'https://www.gov.uk/api/content/foreign-travel-advice/micronesia';
+// export { moldova } from 'https://www.gov.uk/api/content/foreign-travel-advice/moldova';
+// export { monaco } from 'https://www.gov.uk/api/content/foreign-travel-advice/monaco';
+// export { mongolia } from 'https://www.gov.uk/api/content/foreign-travel-advice/mongolia';
+// export { montenegro } from 'https://www.gov.uk/api/content/foreign-travel-advice/montenegro';
+// export { montserrat } from 'https://www.gov.uk/api/content/foreign-travel-advice/montserrat';
+// export { morocco } from 'https://www.gov.uk/api/content/foreign-travel-advice/morocco';
+// export { mozambique } from 'https://www.gov.uk/api/content/foreign-travel-advice/mozambique';
+// export { myanmar } from 'https://www.gov.uk/api/content/foreign-travel-advice/myanmar';
+
+// export { namibia } from 'https://www.gov.uk/api/content/foreign-travel-advice/namibia';
+// export { nauru } from 'https://www.gov.uk/api/content/foreign-travel-advice/nauru';
+// export { nepal } from 'https://www.gov.uk/api/content/foreign-travel-advice/nepal';
+// export { netherlands } from 'https://www.gov.uk/api/content/foreign-travel-advice/netherlands';
+// export { nc } from 'https://www.gov.uk/api/content/foreign-travel-advice/new-caledonia';
+// export { nz } from 'https://www.gov.uk/api/content/foreign-travel-advice/new-zealand';
+// export { nicaragua } from 'https://www.gov.uk/api/content/foreign-travel-advice/nicaragua';
+// export { niger } from 'https://www.gov.uk/api/content/foreign-travel-advice/niger';
+// export { nigeria } from 'https://www.gov.uk/api/content/foreign-travel-advice/nigeria';
+// export { nk } from 'https://www.gov.uk/api/content/foreign-travel-advice/north-korea';
+// export { nm } from 'https://www.gov.uk/api/content/foreign-travel-advice/north-macedonia';
+// export { norway } from 'https://www.gov.uk/api/content/foreign-travel-advice/norway';
+
+// export { oman } from 'https://www.gov.uk/api/content/foreign-travel-advice/oman';
+
+// export { pakistan } from 'https://www.gov.uk/api/content/foreign-travel-advice/pakistan';
+// export { palau } from 'https://www.gov.uk/api/content/foreign-travel-advice/palau';
+// export { topt } from 'https://www.gov.uk/api/content/foreign-travel-advice/the-occupied-palestinian-territories';
+// export { panama } from 'https://www.gov.uk/api/content/foreign-travel-advice/panama';
+// export { png } from 'https://www.gov.uk/api/content/foreign-travel-advice/papua-new-guinea';
+// export { paraguay } from 'https://www.gov.uk/api/content/foreign-travel-advice/paraguay';
+// export { peru } from 'https://www.gov.uk/api/content/foreign-travel-advice/peru';
+// export { philippines } from 'https://www.gov.uk/api/content/foreign-travel-advice/philippines';
+// export { pi } from 'https://www.gov.uk/api/content/foreign-travel-advice/pitcairn-island';
+// export { poland } from 'https://www.gov.uk/api/content/foreign-travel-advice/poland';
+// export { portugal } from 'https://www.gov.uk/api/content/foreign-travel-advice/portugal';
+
+// export { qatar } from 'https://www.gov.uk/api/content/foreign-travel-advice/qatar';
+
+// export { reunion } from 'https://www.gov.uk/api/content/foreign-travel-advice/reunion';
+// export { romania } from 'https://www.gov.uk/api/content/foreign-travel-advice/romania';
+// export { russia } from 'https://www.gov.uk/api/content/foreign-travel-advice/russia';
+// export { rwanda } from 'https://www.gov.uk/api/content/foreign-travel-advice/rwanda';
+
+// export { samoa } from 'https://www.gov.uk/api/content/foreign-travel-advice/samoa';
+// export { sm } from 'https://www.gov.uk/api/content/foreign-travel-advice/san-marino';
+// export { stap } from 'https://www.gov.uk/api/content/foreign-travel-advice/sao-tome-and-principe';
+// export { sa } from 'https://www.gov.uk/api/content/foreign-travel-advice/saudi-arabia';
+// export { senegal } from 'https://www.gov.uk/api/content/foreign-travel-advice/senegal';
+// export { serbia } from 'https://www.gov.uk/api/content/foreign-travel-advice/serbia';
+// export { seychelles } from 'https://www.gov.uk/api/content/foreign-travel-advice/seychelles';
+// export { sl } from 'https://www.gov.uk/api/content/foreign-travel-advice/sierra-leone';
+// export { singapore } from 'https://www.gov.uk/api/content/foreign-travel-advice/singapore';
+// export { slovakia } from 'https://www.gov.uk/api/content/foreign-travel-advice/slovakia';
+// export { slovenia } from 'https://www.gov.uk/api/content/foreign-travel-advice/slovenia';
+// export { si } from 'https://www.gov.uk/api/content/foreign-travel-advice/solomon-islands';
+// export { somalia } from 'https://www.gov.uk/api/content/foreign-travel-advice/somalia';
+// export { saf } from 'https://www.gov.uk/api/content/foreign-travel-advice/south-africa';
+// export { sgass } from 'https://www.gov.uk/api/content/foreign-travel-advice/south-georgia-and-south-sandwich-islands';
+// export { sk } from 'https://www.gov.uk/api/content/foreign-travel-advice/south-korea';
+// export { ss } from 'https://www.gov.uk/api/content/foreign-travel-advice/south-sudan';
+// export { spain } from 'https://www.gov.uk/api/content/foreign-travel-advice/spain';
+// export { sla } from 'https://www.gov.uk/api/content/foreign-travel-advice/sri-lanka';
+// export { shaat } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha';
+// export { skan } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-kitts-and-nevis';
+// export { slu } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-lucia';
+// export { sma } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-maarten';
+// export { smasb } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-martin-and-st-barthelemy';
+// export { spam } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-pierre-and-miquelon';
+// export { svatg } from 'https://www.gov.uk/api/content/foreign-travel-advice/st-vincent-and-the-grenadines';
+// export { sudan } from 'https://www.gov.uk/api/content/foreign-travel-advice/sudan';
+// export { suriname } from 'https://www.gov.uk/api/content/foreign-travel-advice/suriname';
+// export { sweden } from 'https://www.gov.uk/api/content/foreign-travel-advice/sweden';
+// export { switzerland } from 'https://www.gov.uk/api/content/foreign-travel-advice/switzerland';
+// export { syria } from 'https://www.gov.uk/api/content/foreign-travel-advice/syria';
+
+// export { taiwan } from 'https://www.gov.uk/api/content/foreign-travel-advice/taiwan';
+// export { tajikistan } from 'https://www.gov.uk/api/content/foreign-travel-advice/tajikistan';
+// export { tanzania } from 'https://www.gov.uk/api/content/foreign-travel-advice/tanzania';
+// export { thailand } from 'https://www.gov.uk/api/content/foreign-travel-advice/thailand';
+// export { tl } from 'https://www.gov.uk/api/content/foreign-travel-advice/timor-leste';
+// export { togo } from 'https://www.gov.uk/api/content/foreign-travel-advice/togo';
+// export { tonga } from 'https://www.gov.uk/api/content/foreign-travel-advice/tonga';
+// export { tat } from 'https://www.gov.uk/api/content/foreign-travel-advice/trinidad-and-tobago';
+// export { tunisia } from 'https://www.gov.uk/api/content/foreign-travel-advice/tunisia';
+// export { turkey } from 'https://www.gov.uk/api/content/foreign-travel-advice/turkey';
+// export { turkmenistan } from 'https://www.gov.uk/api/content/foreign-travel-advice/turkmenistan';
+// export { taci } from 'https://www.gov.uk/api/content/foreign-travel-advice/turks-and-caicos-islands';
+// export { tuvalu } from 'https://www.gov.uk/api/content/foreign-travel-advice/tuvalu';
+
+// export { usa } from 'https://www.gov.uk/api/content/foreign-travel-advice/usa';
+// export { uganda } from 'https://www.gov.uk/api/content/foreign-travel-advice/uganda';
+// export { ukraine } from 'https://www.gov.uk/api/content/foreign-travel-advice/ukraine';
+// export { uae } from 'https://www.gov.uk/api/content/foreign-travel-advice/united-arab-emirates';
+// export { uruguay } from 'https://www.gov.uk/api/content/foreign-travel-advice/uruguay';
+// export { uzbekistan } from 'https://www.gov.uk/api/content/foreign-travel-advice/uzbekistan';
+
+// export { vanuatu } from 'https://www.gov.uk/api/content/foreign-travel-advice/vanuatu';
+// export { venezuela } from 'https://www.gov.uk/api/content/foreign-travel-advice/venezuela';
+// export { vietnam } from 'https://www.gov.uk/api/content/foreign-travel-advice/vietnam';
+
+// export { waf } from 'https://www.gov.uk/api/content/foreign-travel-advice/wallis-and-futuna';
+// export { ws } from 'https://www.gov.uk/api/content/foreign-travel-advice/western-sahara';
+
+// export { yemen } from 'https://www.gov.uk/api/content/foreign-travel-advice/yemen';
+
+// export { zambia } from 'https://www.gov.uk/api/content/foreign-travel-advice/zambia';
+// export { zimbabwe } from 'https://www.gov.uk/api/content/foreign-travel-advice/zimbabwe';
